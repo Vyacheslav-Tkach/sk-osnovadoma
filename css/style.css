@@ -722,7 +722,8 @@ template {
 
 .section_1 {
   margin-bottom: 70px;
-  background-image: url(/img/main_banner.jpg);
+  background-image: url(../img/main_banner.jpg);
+  background-size: cover;
 }
 
 .section_1 .bg {
@@ -830,7 +831,7 @@ template {
 
 .section_3 .slider {
   height: 600px;
-  background-image: url(/img/slider-1_img-1.jpg);
+  background-image: url(../img/slider-1_img-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -851,9 +852,10 @@ template {
 }
 
 .section_5 {
-  background-image: url(/img/bg_many-svai.jpg);
+  background-image: url(../img/bg_many-svai.jpg);
   background-repeat: no-repeat;
   padding-top: 90px;
+  background-size: cover;
 }
 
 .section_5 .wrap {
@@ -916,7 +918,7 @@ template {
 }
 
 .question .container {
-  background-image: url(/img/img_question.png);
+  background-image: url(../img/img_question.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 30%;
@@ -927,10 +929,11 @@ template {
 }
 
 .zayavka {
-  background-image: url(/img/bg_many-svai_yellow.jpg);
+  background-image: url(../img/bg_many-svai_yellow.jpg);
   background-repeat: no-repeat;
   padding-top: 28px;
   text-align: center;
+  background-size: cover;
 }
 
 .btn-white {
@@ -1543,7 +1546,7 @@ footer .inner .item.item-logo {
     padding-top: 0;
   }
   .section_3 .slider {
-    background-image: url(/img/slider-1_img-1.jpg);
+    background-image: url(../img/slider-1_img-1.jpg);
     height: 400px;
   }
   .section_4 {
